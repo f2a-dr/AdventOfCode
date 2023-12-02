@@ -1,3 +1,6 @@
+# Advent of Code 2023
+# Day 1: Trebuchet?! -- Part 2
+
 # strings = [ "two1nine", "eightwothree", "abcone2threexyz", "xtwone3four", "4nineeightseven2", "zoneight234", "7pqrstsixteen"]
 
 def numberSearcher(string):

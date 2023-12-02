@@ -1,3 +1,6 @@
+# Advent of Code 2023
+# Day 1: Trebuchet?! -- Part 1
+
 strings = []
 numbers = []
 sum = 0
