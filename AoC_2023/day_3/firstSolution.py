@@ -77,4 +77,6 @@ for i in range(len(valueNumbers)):
             if (locationNumbers[i][1][-1] + 1) >= positionSpecial[locationNumbers[i][0]+1][j] and (locationNumbers[i][1][0] - 1) <= positionSpecial[locationNumbers[i][0]+1][j]:
                 sum += valueNumbers[i]
 
+print(valueNumbers)
+print(locationNumbers)
 print(sum)
