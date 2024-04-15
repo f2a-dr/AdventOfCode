@@ -1,9 +1,11 @@
 # Advent of Code 2023
 # Day 5: If You Give A Seed A Fertilizer
+# It does solve the test input, but it cannot deal with the puzzle input,
+# because it has too big numbers.
 
 import numpy as np
 
-filename = "puzzle_input.txt"
+filename = "test_input.txt"
 
 def appender(counter, inputList, outputList):
     counter += 1
@@ -15,7 +17,7 @@ def appender(counter, inputList, outputList):
         counter += 1
 
 def mapper(inputList):
-    highMax = 600000000
+    highMax = 100
 
     outputList = np.linspace(0, highMax, highMax+1, dtype=int)
     # print(outputList)
@@ -71,7 +73,7 @@ temperatureToHumidityMap = mapper(temperatureToHumidity)
 humidityToLocationMap = mapper(humidityToLocation)
 
 
-# print(seedToSoilMap)
+print(seedToSoilMap)
 # print(soilToFertilizerMap)
 # print(fertilizerToWaterMap)
 # print(waterToLightMap)
